@@ -21,7 +21,7 @@ function About() {
     <div>
 
         <div>
-            <h1>About Page</h1>
+            <h1>About Me</h1>
         </div>
         <div>
         <p>

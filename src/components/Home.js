@@ -1,6 +1,6 @@
 
 import Image from 'react-bootstrap/Image'
-import Col from 'react-bootstrap/Col'
+import { Link }  from 'react-router-dom'
 
 //CSS import
 import "../css/components/Home.css";
@@ -10,13 +10,21 @@ const Home = () => {
 return(
   <div>
     <div>
-    <h1>Naomi's Portfolio</h1>
+    <h1>Naomi Muchiri</h1>
+    <h2>Full-Stack Software Engineer</h2>
     </div>
     <container>
-    <Col xs={6} md={4}>
-      <Image src="https://images.unsplash.com/photo-1612170482263-b7e393c4e87f?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" roundedCircle />
-    </Col>
+    <div className="col s12 m5 l5 left-div">
+      <Image src="https://i.ibb.co/t4cf2h1/CIRUS-HS2-WEB.jpg" height="300" widith= "300"/>
+    </div>
+    <br></br>
+    <div>
+    <Link to="/About">
+            <a className="home-buttons btn" href>More about me</a>
+          </Link>
+    </div>
     </container>
+      <br></br>
   </div>
 
 )

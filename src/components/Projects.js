@@ -4,7 +4,7 @@ const Projects=() =>{
 return(
 <div className="row">
   <div>
-    <h1>Projects Page</h1>
+    <h1>My Projects</h1>
   </div>
   <div>
     <h3>Memory Game</h3>

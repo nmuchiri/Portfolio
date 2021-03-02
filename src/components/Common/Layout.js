@@ -6,6 +6,8 @@ import {
 } from "react-icons/fa"
 import { AiOutlineMail } from "react-icons/ai";
 
+import "../css/Layout.css"
+
 const Layout =(props)=>{
     return(
         <div>

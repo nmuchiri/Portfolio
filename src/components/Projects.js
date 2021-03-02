@@ -8,7 +8,7 @@ return(
   </div>
   <div>
     <h3>Memory Game</h3>
-    <a href="https://github.com/nmuchiri/Memory-Game-2"
+    <a href="https://github.com/nmuchiri/memory-game"
        
        >
       <img

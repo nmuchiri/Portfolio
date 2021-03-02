@@ -1,0 +1,4 @@
+input[type="email"]:checked + label[for=email] {
+	color: #ffffff;
+	font-weight: bold;
+}

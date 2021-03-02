@@ -1,6 +1,8 @@
 import emailjs from "emailjs-com"
-//CSS
-import "../css/components/Blog.css";
+
+//CSS import
+import "../css/components/Contact.css"
+
 
 const Contact =()=>{
     function sendEmail(e) {
@@ -35,7 +37,7 @@ const Contact =()=>{
                       name="from_name"
                       class="validate"
                     />
-                    <label className="center-align" for="first_name">
+                    <label className="center-align" for="first_name" style={{color:'white'}}>
                       Name
                     </label>
                   </div>
@@ -48,7 +50,7 @@ const Contact =()=>{
                       id="email"
                       class="validate"
                     />
-                    <label for="password">Email</label>
+                    <label for="email" style={{color:'white'}}>Email</label>
                   </div>
                 </div>
                 <div class="row">
@@ -58,7 +60,7 @@ const Contact =()=>{
                       className="materialize-textarea"
                       name="message"
                     ></textarea>
-                    <label for="textarea1">Message</label>
+                    <label for="textarea1" style={{color:'white'}}>Message</label>
                   </div>
                 </div>
                 <input className="buttons btn" type="submit" value="Send" />

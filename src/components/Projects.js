@@ -1,4 +1,4 @@
-
+import "../css/components/Projects.css";
 
 const Projects=() =>{
 return(
@@ -7,7 +7,7 @@ return(
     <h1>My Projects</h1>
   </div>
   <div>
-    <h3>Memory Game</h3>
+    <h3>Flipping Hats</h3>
     <a href="https://github.com/nmuchiri/memory-game"
        
        >
@@ -24,6 +24,19 @@ return(
     
     </p>
   </div>
+
+  <div>
+            <a class="buttons btn project-button" href="https://nmuchiri.github.io/memory-game/">
+              View the App
+            </a>
+           
+            <a
+              class="buttons btn project-button"
+              href="https://github.com/nmuchiri/memory-game"
+            >
+              View the Code
+            </a>
+          </div>
   <div>
   <h3>Rick & Morty</h3>
     <a href="https://rickandmortyshowapp.herokuapp.com/"
@@ -40,6 +53,19 @@ return(
       This is a fun Rick and Morty app created using Node JS 
     </p>
   </div>
+
+  <div>
+            <a class="buttons btn project-button" href="https://rickandmortyshowapp.herokuapp.com/">
+              View the App
+            </a>
+            
+            <a
+              class="buttons btn project-button"
+              href="https://github.com/nmuchiri/Project-2"
+            >
+              View the Code
+            </a>
+          </div>
   <div>
   <h3>Fomo-Nomo</h3>
     <a href="https://fomo-nomo-frontend.surge.sh/"
@@ -56,6 +82,19 @@ return(
       This app is created using React on the frontend and Node JS on the backend. It allows users to search for online events happening around them. 
     </p>
   </div>
+
+  <div>
+            <a class="buttons btn project-button" href="https://fomo-nomo-frontend.surge.sh/">
+              View the App
+            </a>
+           
+            <a
+              class="buttons btn project-button"
+              href="https://github.com/SFX818/Team-5-frontend"
+            >
+              View the Code
+            </a>
+          </div>
 
 </div>
 )

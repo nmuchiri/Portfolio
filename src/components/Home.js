@@ -11,7 +11,7 @@ return(
   <div>
     <div>
     <h1>Naomi Muchiri</h1>
-    <h2>Full-Stack Software Engineer</h2>
+    <h2>Full Stack Software Engineer</h2>
     </div>
     <container>
     <div className="col s12 m5 l5 left-div">

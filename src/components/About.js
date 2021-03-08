@@ -32,7 +32,7 @@ function About() {
       </div> 
       <div>
       <a className="btn buttons project-button"
-              href="https://drive.google.com/file/d/1dqh-kVKmvf6uiTLDNSfdDHz3O8btnOH3/view?usp=sharing"
+              href="https://drive.google.com/file/d/1toWlS6dtNsGZZ6w-53z2db8c9sEfg5nf/view?usp=sharing"
         >
               My Resume
             </a>
